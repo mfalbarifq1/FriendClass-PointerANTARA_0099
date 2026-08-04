@@ -20,3 +20,15 @@ public:
 
 };
 
+void manusia::showNilaiPelajar(pelajar &x)
+{
+cout << x.nilai;
+}
+int main(){
+
+manusia budi;
+pelajar pbudi;
+budi.showNilaiPelajar(pbudi);
+return 0;
+
+}
